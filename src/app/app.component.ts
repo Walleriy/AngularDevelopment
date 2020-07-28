@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'javaangularintro';
+  dev = {
+    name: 'Hello',
+    age: 0,
+    gender: 'MALE',
+    js: true,
+    java: true,
+    go: '',
+    status: 'SIN'
+  };
+
+  show() : void {
+    console.log(this.dev);
+  }
 }
